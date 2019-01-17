@@ -1,6 +1,11 @@
+body {
+  margin: 0;
+
+}
+
 .wrapper{
     width: 1337px;
-    height: 3000px;
+    height: 1300px;
     margin: auto;
     background-color: #f2f2f2;
 }
@@ -17,31 +22,33 @@ h1{
   font-family: Arial;
 
 }
+/*
 img:hover {
   /* Start the shake animation and make the animation last for 0.5 seconds */
-  animation: shake 10.1s; 
+  /*animation: shake 10.1s; 
 
   /* When the animation is finished, start again */
-  animation-iteration-count: infinite; 
+  /*animation-iteration-count: infinite; 
 }
+*/
 .navbar img{
   margin-left: 15px;
 }
-
+/*
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
   10% { transform: translate(-1px, -2px) rotate(-1deg); }
   20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
+  30% { transform: translate(3px, 2px) rotate(999999999999999999999999999999999999deg); }
   40% { transform: translate(1px, -1px) rotate(1deg); }
   50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  60% { transform: translate(-3px, 1px) rotate(9999999999999999999999999999999999deg); }
   70% { transform: translate(3px, 1px) rotate(-1deg); }
   80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
+  90% { transform: translate(1px, 2px) rotate(9999999999999999999999999999999999999deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
-
+*/
 /* The navigation bar */
 .navbar {
   overflow: hidden;
@@ -292,15 +299,38 @@ img:hover {
 }
 
 
+h1{
+  margin-top: 55px;
+  margin-bottom: 33px;
+  text-align: center;
+  font-family: Arial;
+  font-size: 33px;
+}
+
+.time{
+  margin-bottom: -111px;
+}
+footer,.con p{
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 20px;
+  
+}
+
+.con{
+
+}
 
 
-
-
-
+footer p{
+  color: #f2f2f2; 
+}
 
 footer{
-  height: 200px;
+  height: 100px;
   width: 100%;
   background-color: #333;
-  margin-top: 75px;
+  margin-top: 30px;
+  padding-top: 20px;
+  
 }
